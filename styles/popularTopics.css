@@ -1,0 +1,37 @@
+.popular {
+  margin-top: 30px;
+  & h1 {
+    color: #495057;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+}
+
+.list-popular {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.item-popular {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title-item {
+  color: #495057;
+  font-size: 1.125rem;
+  max-width: 25ch;
+  line-height: 1.3;
+}
+
+.description-item {
+  line-height: 1.3;
+  color: #6c757d;
+}
+
+.data-publication {
+  color: #6c757d;
+}
